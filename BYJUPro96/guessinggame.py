@@ -4,9 +4,9 @@ randomNum=randint(1,10)
 chances=15
 guess=0
 while chances>10:
-     print("random",randomNum)
+     
      guess=int(input("Guess goes here"))
-     print("guess",guess)
+    
     
      if guess==randomNum:
           print("Winner!")
